@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MaximilianoGuerra_Prueba1</string>
+    <string name="login">Login</string>
+    <string name="usuario">Usuario</string>
+    <string name="clave">Clave</string>
+    <string name="entrar">Entrar</string>
+    <string name="call">Call Center</string>
+    <string name="tomarHoraMedica">Tomar Hora Médica</string>
+    <string name="nombrePaciente">Nombre Paciente</string>
+    <string name="fecha">Fecha</string>
+    <string name="hora">Hora</string>
+    <string name="telefono">Teléfono</string>
+    <string name="guardar">Guardar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="verListado">Ver Listado</string>
+    <string name="cerrarSession">Cerrar Sesión</string>
+    <string name="listarHorasMedicas">Listar Horas Médicas</string>
+</resources>
