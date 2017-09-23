@@ -18,6 +18,7 @@ public class LoginPacienteActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_paciente);
+        getSupportActionBar().hide();
         etUsuario = (EditText)findViewById(R.id.etUsuario);
         etClave = (EditText)findViewById(R.id.etClave);
         btnEntrar= (Button) findViewById(R.id.btnEntrar);
@@ -48,7 +49,7 @@ public class LoginPacienteActivity extends AppCompatActivity {
         if(etUsuario.getText().toString().equals("admin") && etClave.getText().toString().equals("admin") || etUsuario.getText().toString().equals("usuario") && etClave.getText().toString().equals("clave") || etUsuario.getText().toString().equals("morty") && etClave.getText().toString().equals("morty")){
             Intent i = new Intent(this, TomarHoraMedicaActivity.class);
             startActivity(i);
-            finish();
+
         }else{
             Toast.makeText(this, "Usuario invalido", Toast.LENGTH_LONG).show();
         }

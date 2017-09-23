@@ -17,10 +17,10 @@
             android:textSize="@dimen/texto_titulos"/>
 
     <Button
-            android:id="@+id/btnEntrar"
+            android:id="@+id/btnVolver"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/cerrarSession"
+            android:text="@string/volver"
             android:layout_gravity="right"
             android:textSize="@dimen/texto_normal"
             android:layout_margin="10dp"/>
