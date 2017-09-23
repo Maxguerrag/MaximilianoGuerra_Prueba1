@@ -4,9 +4,10 @@
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="10dp"
+        android:background="@android:color/holo_green_dark"
         tools:context="cl.duocuc.maximilianoguerra_prueba1.TomarHoraMedicaActivity">
 
     <TextView
@@ -14,27 +15,31 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textSize="@dimen/texto_normal"/>
+            android:textSize="@dimen/texto_titulos"/>
 
     <EditText
             android:id="@+id/etNombrePaciente"
             android:hint="@string/nombrePaciente"
             android:layout_width="wrap_content"
+            android:textSize="@dimen/texto_normal"
             android:layout_height="wrap_content"/>
     <EditText
             android:id="@+id/etFecha"
             android:hint="@string/fecha"
             android:layout_width="wrap_content"
+            android:textSize="@dimen/texto_normal"
             android:layout_height="wrap_content"/>
     <EditText
             android:id="@+id/etHora"
             android:hint="@string/hora"
             android:layout_width="wrap_content"
+            android:textSize="@dimen/texto_normal"
             android:layout_height="wrap_content"/>
     <EditText
             android:id="@+id/etTelefono"
             android:hint="@string/telefono"
             android:layout_width="wrap_content"
+            android:textSize="@dimen/texto_normal"
             android:layout_height="wrap_content"/>
     <LinearLayout
             android:weightSum="2"
@@ -47,6 +52,7 @@
                 android:text="@string/guardar"
                 android:layout_gravity="center"
                 android:layout_weight="1"
+                android:textSize="@dimen/texto_normal"
                 android:layout_margin="10dp"/>
         <Button
                 android:id="@+id/btnLimpiar"
@@ -55,6 +61,7 @@
                 android:text="@string/limpiar"
                 android:layout_gravity="center"
                 android:layout_weight="1"
+                android:textSize="@dimen/texto_normal"
                 android:layout_margin="10dp"/>
     </LinearLayout>
     <LinearLayout
@@ -68,6 +75,7 @@
                 android:text="@string/verListado"
                 android:layout_gravity="center"
                 android:layout_weight="1"
+                android:textSize="@dimen/texto_normal"
                 android:layout_margin="10dp"/>
         <Button
                 android:id="@+id/btnEntrar"
@@ -76,6 +84,7 @@
                 android:text="@string/cerrarSession"
                 android:layout_gravity="center"
                 android:layout_weight="1"
+                android:textSize="@dimen/texto_normal"
                 android:layout_margin="10dp"/>
     </LinearLayout>
 

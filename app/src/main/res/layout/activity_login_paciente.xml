@@ -7,28 +7,31 @@
         android:layout_height="match_parent"
         android:padding="10dp"
         tools:context="cl.duocuc.maximilianoguerra_prueba1.LoginPacienteActivity"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@android:color/holo_green_dark">
 
     <TextView
             android:text="@string/login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textSize="@dimen/texto_normal"/>
+            android:textSize="@dimen/texto_titulos"/>
 
-        <EditText
-                android:id="@+id/etUsuario"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/usuario"/>
+    <EditText
+            android:id="@+id/etUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/texto_normal"
+            android:hint="@string/usuario"/>
 
 
-        <EditText
-                android:id="@+id/etClave"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/clave"
-                android:inputType="textPassword"/>
+    <EditText
+            android:id="@+id/etClave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/clave"
+            android:textSize="@dimen/texto_normal"
+            android:inputType="textPassword"/>
 
     <Button
             android:id="@+id/btnEntrar"
@@ -36,6 +39,7 @@
             android:layout_height="wrap_content"
             android:text="@string/entrar"
             android:layout_gravity="center"
+            android:textSize="@dimen/texto_normal"
             android:layout_margin="10dp"/>
     <Button
             android:id="@+id/btnCall"
@@ -43,6 +47,7 @@
             android:layout_height="wrap_content"
             android:text="@string/call"
             android:layout_gravity="center"
+            android:textSize="@dimen/texto_normal"
             android:layout_margin="10dp"/>
 
 

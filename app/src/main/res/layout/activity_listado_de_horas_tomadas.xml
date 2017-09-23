@@ -7,13 +7,14 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="10dp"
+        android:background="@android:color/holo_green_dark"
         tools:context="cl.duocuc.maximilianoguerra_prueba1.ListadoDeHorasTomadasActivity">
     <TextView
             android:text="@string/listarHorasMedicas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textSize="@dimen/texto_normal"/>
+            android:textSize="@dimen/texto_titulos"/>
 
     <Button
             android:id="@+id/btnEntrar"
@@ -21,6 +22,7 @@
             android:layout_height="wrap_content"
             android:text="@string/cerrarSession"
             android:layout_gravity="right"
+            android:textSize="@dimen/texto_normal"
             android:layout_margin="10dp"/>
     <ListView
             android:id="@+id/lvProvedores"
